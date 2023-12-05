@@ -1,0 +1,48 @@
+body {
+    background-color: #0B0C43;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+
+
+header a {
+    background-color: #00b2c8;
+    color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trial_btn {
+    background-color: #00b2c8;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.sms_btn {
+    position: fixed;
+    background-color: #00b2c8;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 10px 30px 30px;
+    bottom: 20px;
+    right: 30px;
+}
