@@ -1,0 +1,35 @@
+#overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 4rem;
+    z-index: 9999;
+    display: none;
+}
+
+#overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-modal {
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.eIslmb {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6em;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 32px;
+    box-shadow: none;
+    background: white;
+    color: black;
+}
